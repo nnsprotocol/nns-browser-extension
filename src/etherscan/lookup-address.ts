@@ -113,6 +113,9 @@ function updateElements(
         case "a":
           el.innerHTML = lu.name;
           el.setAttribute("data-original-title", `${lu.name} (${addr})`);
+          el.parentElement
+            ?.querySelector('img[data-original-title="ENS Name"]')
+            ?.remove();
           break;
       }
     }
