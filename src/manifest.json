@@ -1,4 +1,6 @@
 {
+  "name": "Nouns Name Service (NNS)",
+  "description": "Resolve and view .⌐◨-◨ domains",
   "manifest_version": 3,
   "content_scripts": [
     {

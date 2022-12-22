@@ -1,8 +1,7 @@
 {
-  "name": "Nouns Naming Service",
+  "name": "nns-browser-extension",
   "description": "Resolve and view .⌐◨-◨ domains",
-  "version": "0.0.1",
-  "main": "background.js",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "build": "rollup -c",
