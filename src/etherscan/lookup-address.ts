@@ -108,7 +108,12 @@ function updateElements(
     for (const el of elements) {
       switch (el.tagName.toLowerCase()) {
         case "span":
-          el.innerHTML = lu.name;
+          if (el.firstElementChild?.tagName.toLowerCase() === "a") {
+            const link = el.firstElementChild;
+            link.innerHTML = lu.name;
+          } else {
+            el.innerHTML = lu.name;
+          }
           break;
         case "a":
           el.innerHTML = lu.name;
