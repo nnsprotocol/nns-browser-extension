@@ -8,8 +8,7 @@ This extension automatically resolves all addresses shown in [Etherscan](https:/
 
 ## How do I get it?
 
-You can find the extension on the Chrome Web Store.
-Link coming soon...
+You can find the extension on the [Chrome Web Store](https://chrome.google.com/webstore/detail/nouns-name-service-nns/ohbfcjnbjhbpmbafkcladfbblfncmaia).
 
 ## How does it work?
 
