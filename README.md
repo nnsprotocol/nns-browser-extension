@@ -2,7 +2,7 @@
 
 ![NNS Hero](/assets/hero.jpg)
 
-Welcome to the official Chrome extension for the [Nouns Naming Service](https://nns.xyz/).
+Welcome to the official Chrome extension for the [Nouns Name Service](https://nns.xyz/).
 
 This extension automatically resolves all addresses shown in [Etherscan](https://etherscan.io) to their associated NNS domain. This feature is something etherscan already does for ENS domains and this extension makes it possible for NNS domains too!
 
