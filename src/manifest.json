@@ -5,7 +5,11 @@
   "content_scripts": [
     {
       "matches": ["https://etherscan.io/*"],
-      "js": ["./index.ts"]
+      "js": ["./etherscan/index.ts"]
+    },
+    {
+      "matches": ["https://opensea.io/*"],
+      "js": ["./opensea/index.ts"]
     }
   ],
   "permissions": ["storage"],
