@@ -4,7 +4,9 @@ import { resolveAddresses, ResolvedName } from "../operations/nns-lookup";
 // getElementsByAddress finds all elements showing an address that should be looked up against the NNS registry.
 // Elements are returned grouped by address as there may be many elements for the same address.
 function getElementsByAddress(): Record<string, Element[]> {
-  const elements = document.querySelectorAll(".hash-tag[data-original-title]");
+  const elements = document.querySelectorAll(
+    'a[href*="/address"], span.hash-tag'
+  );
   const elementsByAddr: Record<string, Element[]> = {};
   for (const el of elements) {
     const ref =

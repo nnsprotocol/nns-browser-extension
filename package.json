@@ -1,7 +1,7 @@
 {
   "name": "nns-browser-extension",
   "description": "Resolve and view .⌐◨-◨ domains",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "scripts": {
     "build": "rollup -c",
